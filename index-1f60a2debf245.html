@@ -1,0 +1,174 @@
+<div id="shopify-section-cart-drawer" class="shopify-section">
+    <div style="--tw-bg-opacity: 0;" class="scd__wrapper touch-none hidden transition-colors duration-300 bg-black fixed z-[100] inset-0">
+        <div class="scd__content transition-transform duration-300 translate-x-0 translate-x-full ml-auto min-h-full md:w-[450px] bg-white z-50">
+            <button class="scd__close p-2 cursor-pointer absolute">
+      <span aria-hidden="true" style="font-size:0">button icon</span>
+      
+
+
+        <svg class="w-[24px] h-[24px]" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+            <path d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"/>
+        </svg>
+    
+
+    </button>
+
+            <form action="/cart" method="post" class="checkout-form flex flex-col h-full" novalidate>
+
+                <div class="scd__header mx-6 py-4 md:pt-6">
+                    <h3 class="text-2xl font-medium">SHOPPING BAG</h3>
+
+
+
+
+                </div>
+                <div class="scd__body sf__custom_scroll overscroll-contain px-6 pb-4 flex flex-col flex-grow">
+                    <div class="scd-empty-msg">
+                        Your cart is currently empty.
+                    </div>
+                </div>
+                <div class="scd__footer py-4 px-6">
+
+                    <div class="scd__footer-actions">
+
+                        <button data-open="note" class="sf__tooltip-item sf__tooltip-top">
+        <svg class="w-[20px] h-[20px]" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19"><path fill="currentColor" d="M17.3672 2.21875c.4453.44531.668.98437.668 1.61719 0 .60937-.2227 1.13672-.668 1.58203L4.99219 17.793l-4.007815.457H.878906c-.257812 0-.46875-.0938-.632812-.2812-.164063-.1876-.234375-.4102-.210938-.668l.457032-4.0078L12.8672.917969C13.3125.472656 13.8398.25 14.4492.25c.6328 0 1.1719.222656 1.6172.667969l1.3008 1.300781zM4.46484 16.7383l9.28126-9.28127-2.918-2.91797-9.28122 9.28124-.35157 3.2695 3.26953-.3515zM16.5938 4.60938c.2109-.21094.3164-.46875.3164-.77344 0-.32813-.1055-.59766-.3164-.8086l-1.336-1.33593c-.2109-.21094-.4805-.31641-.8086-.31641-.3047 0-.5625.10547-.7734.31641l-2.0391 2.03906 2.918 2.91797 2.0391-2.03906z"/></svg>
+        <span>Note</span>
+        <span class="sf__tooltip-content text-[12px]">Add note for seller</span>
+      </button>
+
+
+                        <button data-open="shipping" class="sf__tooltip-item sf__tooltip-top">
+        <svg class="w-[22px] h-[22px]" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M280 192c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240zm352 192h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H113.4C86.2 32 64 52.9 64 78.6V96H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H96V78.6c0-8.1 7.8-14.6 17.4-14.6h253.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6C193 364.7 170 352 144 352c-18.1 0-34.6 6.2-48 16.4V288H64v144c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zm-488 96c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm272-320h44.1c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416V160zm80 320c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-96h-16.4C545 364.7 522 352 496 352s-49 12.7-63.6 32H416v-96h160v96zM256 248v-16c0-4.4-3.6-8-8-8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8z"/></svg>
+        <span>Shipping</span>
+        <span class="sf__tooltip-content text-[12px]">Estimate shipping rates</span>
+      </button>
+
+
+                    </div>
+
+
+                    <div class="scd__addon" id="scd-note">
+                        <div class="scd__addon-title font-medium">
+                            <svg class="w-[20px] h-[20px]" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19"><path fill="currentColor" d="M17.3672 2.21875c.4453.44531.668.98437.668 1.61719 0 .60937-.2227 1.13672-.668 1.58203L4.99219 17.793l-4.007815.457H.878906c-.257812 0-.46875-.0938-.632812-.2812-.164063-.1876-.234375-.4102-.210938-.668l.457032-4.0078L12.8672.917969C13.3125.472656 13.8398.25 14.4492.25c.6328 0 1.1719.222656 1.6172.667969l1.3008 1.300781zM4.46484 16.7383l9.28126-9.28127-2.918-2.91797-9.28122 9.28124-.35157 3.2695 3.26953-.3515zM16.5938 4.60938c.2109-.21094.3164-.46875.3164-.77344 0-.32813-.1055-.59766-.3164-.8086l-1.336-1.33593c-.2109-.21094-.4805-.31641-.8086-.31641-.3047 0-.5625.10547-.7734.31641l-2.0391 2.03906 2.918 2.91797 2.0391-2.03906z"/></svg>
+                            <span>Add note for seller</span>
+                        </div>
+                        <div class="scd__addon-content">
+                            <textarea aria-label="message" name="note" class="form-control" rows="3" placeholder="Special instructions for seller"></textarea>
+                        </div>
+                        <div class="scd__addon-actions flex flex-col">
+                            <button class="sf__btn sf__btn-primary btn-save" data-action="note">Save</button>
+                            <button class="sf__btn sf__btn-plain btn-cancel" data-action="note">Cancel</button>
+                        </div>
+                    </div>
+
+
+                    <div class="scd__addon" id="scd-shipping">
+                        <div class="scd__addon-title font-medium">
+                            <svg class="w-[22px]" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M280 192c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240zm352 192h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H113.4C86.2 32 64 52.9 64 78.6V96H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H96V78.6c0-8.1 7.8-14.6 17.4-14.6h253.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6C193 364.7 170 352 144 352c-18.1 0-34.6 6.2-48 16.4V288H64v144c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zm-488 96c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm272-320h44.1c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416V160zm80 320c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-96h-16.4C545 364.7 522 352 496 352s-49 12.7-63.6 32H416v-96h160v96zM256 248v-16c0-4.4-3.6-8-8-8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8z"/></svg>
+                            <span>Estimate shipping rates</span>
+                        </div>
+                        <div class="scd__addon-content">
+                            <div data-address="root">
+                                <div class="hidden">
+                                    <label for="AddressFirstName">First Name</label>
+                                    <input type="text" id="AddressFirstName" name="address[first_name]" value="">
+                                </div>
+                                <div class="hidden">
+                                    <label for="AddressLastName">Last Name</label>
+                                    <input type="text" id="AddressLastName" name="address[last_name]" value="">
+                                </div>
+
+                                <div class="hidden">
+                                    <label for="AddressCompany">Company</label>
+                                    <input type="text" id="AddressCompany" name="address[company]" value="">
+                                </div>
+
+                                <div class="hidden">
+                                    <label for="AddressAddress1">Address</label>
+                                    <input type="text" id="AddressAddress1" name="address[address1]" value="">
+                                </div>
+
+                                <div class="hidden">
+                                    <label for="AddressAddress2">Apartment, suite, etc.</label>
+                                    <input type="text" id="AddressAddress2" name="address[address2]" value="">
+                                </div>
+
+                                <div class="hidden">
+                                    <label for="AddressCity">City</label>
+                                    <input type="text" id="AddressCity" name="address[city]" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="AddressCountry">Country</label>
+                                    <select id="AddressCountry" class="form-control" name="address[country]" data-default="US"></select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="AddressProvince">Province</label>
+                                    <select id="AddressProvince" class="form-control" name="address[province]" data-default=""></select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="AddressZip">Postal/Zip Code</label>
+                                    <input type="text" class="form-control" id="AddressZip" name="address[zip]" value="" autocapitalize="characters">
+                                </div>
+
+                                <div class="hidden">
+                                    <label for="AddressPhone">Phone</label>
+                                    <input type="tel" id="AddressPhone" name="address[phone]" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scd__addon-actions flex flex-col" data-show-delivery-days="false">
+                            <button class="sf__btn sf__btn-primary btn-calc relative" data-action="shipping">
+          <span class="shipping-calc-spinner inset-0 absolute items-center justify-center">
+            <svg class="animate-spin w-[20px] h-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+          </span>
+          <span class="shipping-calc-text">
+            Calculate shipping rates
+          </span>
+        </button>
+                            <button class="sf__btn sf__btn-plain btn-cancel" data-action="shipping">Cancel</button>
+                        </div>
+                        <div class="scd__addon-message py-5"></div>
+                    </div>
+
+
+
+                    <div class="scd__summary mb-4 pt-4" data-cart-summary>
+                        <div data-discounts>
+                            <ul class="scd-cart__discounts" role="list" data-discounts-list>
+
+                            </ul>
+                        </div>
+                        <div class="scd__subtotal flex justify-between" data-cart-subtotal>
+                            <span class="font-medium">Subtotal</span>
+                            <span class="scd__subtotal-price font-medium sf-currency" data-cart-subtotal-price>Rs.0.00</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+
+
+                        <input type="hidden" name="return_to" value="/checkout/" />
+                        <button type="button" onclick="location.href= '/checkout';" class="sf__btn sf__btn-primary w-full scd__checkout mb-3" name="checkout">
+            Check out
+          </button>
+                        <a class="underline" href="/cart">
+            View Bag
+          </a>
+                    </div>
+
+                    <div class="scd__trust-badge mt-2">
+                        <img src="//inyourfaceskincare.com/cdn/shop/files/badges_shop_840x.png?v=1661452401" loading="lazy" width="400" height="100" alt="Trust secure badge">
+                    </div>
+
+                </div>
+                <div class="scd__overlay inset-0"></div>
+            </form>
+        </div>
+    </div>
+</div>
